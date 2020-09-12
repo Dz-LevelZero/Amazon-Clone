@@ -11,13 +11,15 @@ function Home() {
             </div>
 
             <div className="home__row">
-                <Product 
+                <Product
+                    id=  "1111111111111"
                     title= "Rich Dad Poor Dad"
                     price= {19.68}
                     image= "https://m.media-amazon.com/images/I/51bX4hDuBIL.jpg"
                     rating= {5}           
                 />
-                <Product 
+                <Product
+                    id=  "22222222222222222"
                     title= "World of Warcraft: Battle for Azeroth"
                     price= {51.99}
                     image= "https://s2.gaming-cdn.com/images/products/4591/271x377/world-of-warcraft-battle-for-azeroth-deluxe-edition-cover.jpg"
@@ -27,19 +29,22 @@ function Home() {
             </div>
 
             <div className="home__row">
-                <Product 
+                <Product
+                    id=  "33333333333333333"
                     title= "Smartwatch "
                     price= {39.99}
                     image= "https://www.amazon.fr/images/I/514Y7g-JQDL._AC_UL320_.jpg"
                     rating= {4}
                 />
-                <Product 
+                <Product
+                    id=  "4444444444444444"
                     title= "ASUS ROG Phone 3"
                     price= {949.00}
                     image= "https://www.amazon.fr/images/I/71VcgBG3c8L._AC_UL320_.jpg"
                     rating= {5}
                 />
-                <Product 
+                <Product
+                    id=  "55555555555555555555555"
                     title= "Summerone Casque stéréo Gaming"
                     price= {78.29}
                     image= "https://www.amazon.fr/images/I/61SRQG0orEL._AC_UL320_.jpg"
@@ -48,7 +53,8 @@ function Home() {
             </div>
 
             <div className="home__row">
-                <Product 
+                <Product
+                    id=  "66666666666666666666666666"
                     title= "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
                     price= {1094.98}
                     image= "https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
