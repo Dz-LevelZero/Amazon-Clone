@@ -10,8 +10,15 @@
     min-width: 100px;
     background-color: white;
     z-index: 1;
+
+    opacity: 0.95;
+    transition: transform 100ms ease-out;
 }
 
+.product:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
 .product__rating {
     display: flex;
 }
@@ -28,6 +35,12 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #844a29;
     color: #111;
+
+    transition: transform 100ms ease-out;
+}
+
+.product > button:hover {
+    transform: scale(1.2);
 }
 
 .product__price {
